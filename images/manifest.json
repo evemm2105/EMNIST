@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 416,
+    "id" : "https://evemm2105.github.io/EMNIST/images/3_1/canvas/",
+    "label" : {
+      "none" : [ "3_1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://evemm2105.github.io/EMNIST/images/3_1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://evemm2105.github.io/EMNIST/images/3_1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 13,
+              "height" : 13
+            }, {
+              "width" : 26,
+              "height" : 26
+            }, {
+              "width" : 52,
+              "height" : 52
+            }, {
+              "width" : 104,
+              "height" : 104
+            }, {
+              "width" : 208,
+              "height" : 207
+            }, {
+              "width" : 416,
+              "height" : 413
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 416,
+            "@id" : "https://evemm2105.github.io/EMNIST/images/3_1",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 413
+          } ],
+          "format" : "image/jpeg",
+          "width" : 416,
+          "id" : "https://evemm2105.github.io/EMNIST/images/3_1/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 413
+        },
+        "target" : "https://evemm2105.github.io/EMNIST/images/3_1/canvas/"
+      } ]
+    } ],
+    "height" : 413
+  }, {
+    "width" : 416,
     "id" : "https://evemm2105.github.io/EMNIST/images/3/canvas/",
     "label" : {
       "none" : [ "3" ]
